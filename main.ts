@@ -35,6 +35,6 @@ Go = 0
 basic.forever(function () {
     if (Go == 1) {
         Temps2 = temps - To
-        serial.writeLine("" + Temps2 + " ; " + acceleration)
+        serial.writeLine("" + acceleration + " ; " + Temps2)
     }
 })
